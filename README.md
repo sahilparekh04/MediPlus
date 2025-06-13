@@ -6,9 +6,10 @@
 
 MediPlus is a modern, clean, and professional-looking website template ideal for healthcare-related businesses like clinics, hospitals, or medical centers. This website showcases multiple sections such as:
 
-- Hero section with call to action
+- Navbar
+- Hero section
 - Testimonials
-- Information & Footer
+- Footer
 
 ## 💻 Technologies Used
 
@@ -16,12 +17,4 @@ MediPlus is a modern, clean, and professional-looking website template ideal for
 - CSS3
 - Media Queries (for responsiveness)
 - Google Fonts (optional)
-- Font Awsome 
-
-## 📱 Responsive Design
-
-The layout adapts to various screen sizes:
-- Desktop: Multi-column layout
-- Mobile: Stacked content, touch-friendly design
-
-
+- Font Awsome for (Icons)
