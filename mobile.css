@@ -92,11 +92,10 @@
     margin: 0;
   }
   /* Hero Section Cards */
-  .hero > .container > .container {
+  .hero-cards > .container {
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
-    margin-top: 50px;
   }
 
   /* Middle Section */

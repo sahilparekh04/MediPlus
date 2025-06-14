@@ -103,6 +103,13 @@ ul {
 }
 
 /* Hero Card */
+main{
+  position: absolute;
+}
+.hero-cards{
+  position: relative;
+  top: -120px;
+}
 .hero-cards > .container {
   display: flex;
   align-items: center;
@@ -155,7 +162,6 @@ ul {
   flex-direction: column;
   gap: 10vh;
   box-sizing: border-box;
-  margin-top: 10vh;
 }
 .mid-sec > .container {
   display: flex;
