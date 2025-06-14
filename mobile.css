@@ -147,13 +147,12 @@
   }
 
   footer {
-    height: 220vh;
+    height: 982.8px;
     padding: 50px 0 50px 0;
   }
   footer > .container {
-    height: 200vh;
+    height: 982.8px;
     flex-direction: column;
-    gap: 30px;
   }
   footer > .container ul li {
     margin: 10px 0;
