@@ -147,10 +147,10 @@
   }
 
   footer {
-    height: 135vh;
+    height: 200vh;
   }
   footer > .container {
-    height: 130vh;
+    height: 200vh;
     flex-wrap: wrap;
   }
   footer > .container ul li {

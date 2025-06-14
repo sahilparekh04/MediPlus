@@ -395,5 +395,8 @@ footer > .container > .col2 > .col2-con > .right > ul > li > a {
   color: #fff;
   font-family: var(--primary-font);
   padding: 20px 0;
+  bottom: 0;
+  right: 0;
+  position: relative;
 }
 
