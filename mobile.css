@@ -61,9 +61,6 @@
   .hero {
     background-image: url("img/slider3.jpg");
   }
-  .hero > .container {
-    height: 1146.6px;
-  }
   .hero-left {
     width: 100%;
   }
@@ -103,9 +100,6 @@
   }
 
   /* Middle Section */
-  .mid-sec {
-    margin-top: 638.82px;
-  }
   .mid-top-container {
     width: 100%;
   }
@@ -133,7 +127,6 @@
   .mid-sec > .con3 {
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 81.9px;
   }
   .mid-sec > .con3 > .left-part-mid {
     width: 90%;
