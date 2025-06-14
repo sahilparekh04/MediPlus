@@ -145,4 +145,35 @@
     width: 90%;
     margin-top: 50px;
   }
+
+  footer {
+    height: 220vh;
+    padding: 50px 0 50px 0;
+  }
+  footer > .container {
+    height: 200vh;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer > .container ul li {
+    margin: 10px 0;
+  }
+  footer > .container > .col1 {
+    width: 100%;
+  }
+  footer > .container > .col2 {
+    width: 100%;
+  }
+  footer > .container > .col3 {
+    width: 100%;
+  }
+  footer > .container > .col4 {
+    width: 100%;
+  }
+  .full-container {
+    padding: 20px 0;
+  }
+  .full-container > p {
+    text-align: center;
+  }
 }
