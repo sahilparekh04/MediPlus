@@ -143,8 +143,7 @@ ul {
   color: var(--secondary-color);
   font-size: 0.9rem;
 }
-.card > .card-bottom > a::after{
-  content: '\f178';
+.card > .card-bottom > a > i{
   margin-left: 10px;
 }
 .card:hover {

@@ -23,15 +23,15 @@
     justify-content: center;
   }
   .sec-navbar > .right > .num {
-    padding: 4px 10px;
-    margin: 4px 10px;
+    padding: 4px 5px 4px 0;
+    margin: 4px 10px 4px 0;
   }
   .sec-navbar > .right > .num > span {
     font-size: 0.9rem;
   }
   .sec-navbar > .right > .email {
-    padding: 4px 10px;
-    margin: 4px 10px;
+    padding: 4px 0 4px 5px;
+    margin: 4px 0 4px 10px;
   }
   .sec-navbar > .right > .email > span {
     font-size: 0.9rem;
@@ -47,7 +47,7 @@
   }
   .hamberger {
     display: block;
-    padding: 20px 10px;
+    padding: 24px 10px;
   }
   .nav-links {
     display: none;
@@ -82,7 +82,7 @@
   .hero-span {
     font-size: 1.3rem;
   }
-  .hero-left >.left-center > p {
+  .hero-left > .left-center > p {
     font-size: 0.8rem;
   }
   .hero-left > .left-bottom {
@@ -99,11 +99,12 @@
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
+    margin-top: 50px;
   }
 
   /* Middle Section */
   .mid-sec {
-    margin-top: 130vh;
+    margin-top: 117vh;
   }
   .mid-top-container {
     width: 100%;
@@ -129,15 +130,26 @@
     flex-wrap: wrap;
     gap: 10px;
   }
-
   .mid-sec > .con3 {
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 15vh;
   }
   .mid-sec > .con3 > .left-part-mid {
     width: 90%;
   }
+  .mid-sec > .con3 > .left-part-mid > .mid > p {
+    margin: 30px 0 45px 0;
+    padding: 0;
+    font-size: 0.85rem;
+  }
+  .mid-sec > .con3 > .left-part-mid > .bottom > p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+  }
   .mid-sec > .con3 > .right-part-mid {
     width: 90%;
+    margin-top: 50px;
   }
 }
