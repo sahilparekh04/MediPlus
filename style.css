@@ -253,7 +253,6 @@ ul {
 }
 .mid-sec > .con3 > .left-part-mid {
   width: 50%;
-  height: 50vh;
 }
 .mid-sec > .con3 > .left-part-mid > .title > h2 {
   font-family: var(--primary-font);
@@ -282,9 +281,11 @@ ul {
 }
 .mid-sec > .con3 > .right-part-mid {
   width: 50%;
-  height: 50vh;
-  background-image: url("img/signup-bg.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.mid-sec > .con3 > .right-part-mid > img {
+  width: 100%;
+}
+
