@@ -59,6 +59,7 @@
   /* Main Section */
   /* Hero Section */
   .hero {
+    height: 60vh;
     background-image: url("img/slider3.jpg");
   }
   .hero-left {
