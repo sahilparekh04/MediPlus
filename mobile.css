@@ -1,4 +1,4 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
   .container {
     width: 90%;
   }
@@ -147,31 +147,30 @@
   }
 
   footer {
-    height: 190vh;
+    height: 135vh;
   }
   footer > .container {
-    height: 190vh;
-    flex-direction: column;
+    height: 130vh;
+    flex-wrap: wrap;
   }
   footer > .container ul li {
     margin: 10px 0;
   }
   footer > .container > .col1 {
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
   footer > .container > .col2 {
     width: 100%;
-    height: 250px;
+    height: 260px;
   }
   footer > .container > .col3 {
     width: 100%;
-    height: 230px;
+    height: 260px;
   }
   footer > .container > .col4 {
     width: 100%;
     height: 200px;
-    margin: 30px 0;
   }
   .full-container {
     padding: 20px 0;
