@@ -245,11 +245,10 @@ ul {
   background-color: var(--white-bg);
   color: var(--primary-bg-color);
 }
-
-.mid-sec > .con3 {
+.mid-sec > .con3{
+  width: 83%;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 .mid-sec > .con3 > .left-part-mid {
   width: 50%;

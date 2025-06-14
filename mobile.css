@@ -126,7 +126,7 @@
   }
   .mid-sec > .con3 {
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
   }
   .mid-sec > .con3 > .left-part-mid {
     width: 90%;
