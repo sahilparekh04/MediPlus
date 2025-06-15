@@ -348,7 +348,7 @@ footer > .container > .ft-item > p {
 }
 .q-link-container {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .cp-r-container {
   display: flex;
@@ -358,6 +358,9 @@ footer > .container > .ft-item > p {
   color: var(--secondary-color);
   background-color: #1a76d1;
   padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  right: 0;
 }
 .white-br {
   border-bottom: 3px solid var(--white-bg);
