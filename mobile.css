@@ -59,7 +59,7 @@
   /* Main Section */
   /* Hero Section */
   .hero {
-    height: 90vh;
+    height: 50vh;
     background-image: url("img/slider3.jpg");
   }
   .hero-left {
@@ -97,6 +97,9 @@
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
+  }
+  .hero-cards {
+    margin-top: 30vh;
   }
 
   /* Middle Section */
@@ -146,9 +149,9 @@
     margin-top: 50px;
   }
 
-  footer > .container{
+  footer > .container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
   .cp-r-container {
     text-align: center;
