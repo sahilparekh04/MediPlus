@@ -1,4 +1,4 @@
-/* Header */
+/* Header Section */
 header {
   background-color: var(--white-bg);
   border-bottom: 1px solid var(--line-color);
@@ -11,7 +11,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-/* Top Navbar Left Slide */
 .sec-navbar > .left > ul {
   display: flex;
 }
@@ -26,8 +25,6 @@ header {
 .sec-navbar > .left > ul > li > a:hover {
   color: var(--primary-bg-color);
 }
-
-/* Top Navbar Right Side */
 .sec-navbar > .right {
   display: flex;
   align-items: center;
@@ -51,7 +48,7 @@ header {
   font-family: var(--primary-font);
 }
 
-/* Navbar */
+/* Navbar Section */
 nav {
   top: 0;
   left: 0;
@@ -88,10 +85,10 @@ nav {
   font-weight: 500;
   font-family: var(--primary-font);
 }
+.nav-links > ul > li > a:hover {
+  color: var(--primary-bg-color);
+}
 .primary-nav > .btn-container {
   padding: 10px 10px;
   margin: 10px 10px;
-}
-.nav-links > ul > li > a:hover {
-  color: var(--primary-bg-color);
 }

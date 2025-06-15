@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* utility CSS */
+/* Utility CSS */
 :root {
   --primary-font: "Poppins", sans-serif;
   --primary-color: #2c2d3f;
@@ -68,6 +68,9 @@ ul {
 }
 
 /* Main Section */
+main {
+  position: absolute;
+}
 
 /* Hero Section */
 .hero {
@@ -102,10 +105,7 @@ ul {
   margin-right: 10px;
 }
 
-/* Hero Card */
-main {
-  position: absolute;
-}
+/* Hero-Cards Section */
 .hero-cards {
   position: relative;
   top: -120px;
@@ -152,10 +152,8 @@ main {
   transform: translate(0, -5px);
   box-shadow: 0px 5px 10px var(--primary-bg-color);
 }
-/* Slider Section-End */
 
 /* Middle Section */
-/* Middle Section Quotes */
 .mid-sec {
   width: 100%;
   display: flex;
@@ -163,6 +161,8 @@ main {
   gap: 10vh;
   box-sizing: border-box;
 }
+
+/* Quote-1 */
 .mid-sec > .container {
   display: flex;
   justify-content: center;
@@ -194,7 +194,7 @@ main {
   text-align: center;
 }
 
-/* Middle Section Testimonals*/
+/* Testimonal-1 */
 .middle-part {
   width: 100%;
   height: 40vh;
@@ -237,6 +237,10 @@ main {
   color: var(--secondary-color);
   transition: all 0.5s;
 }
+.test-div:hover {
+  background-color: var(--white-bg);
+  color: var(--primary-bg-color);
+}
 .tt-c-r > h3 {
   font-family: var(--primary-font);
   font-size: 1.5rem;
@@ -247,10 +251,8 @@ main {
   color: var(--secondary-color);
   font-size: 0.9rem;
 }
-.test-div:hover {
-  background-color: var(--white-bg);
-  color: var(--primary-bg-color);
-}
+
+/* Testimonal-2 */
 .mid-sec > .con3 {
   width: 83%;
   margin: 0 auto;
@@ -294,6 +296,7 @@ main {
   width: 100%;
 }
 
+/* Footer Section */
 footer {
   width: 100%;
   background-color: #176abc;
@@ -320,6 +323,11 @@ footer > .container > .ft-item > p {
   margin-bottom: 20px;
   font-size: 0.9rem;
 }
+.white-br {
+  border-bottom: 3px solid var(--white-bg);
+  border-radius: 1px;
+  padding: 12px 0;
+}
 .sc-container {
   display: flex;
   gap: 20px;
@@ -334,14 +342,6 @@ footer > .container > .ft-item > p {
   align-items: center;
   justify-content: center;
 }
-.q-link-container > ul > li > a {
-  font-family: var(--primary-font);
-  color: var(--secondary-color);
-  font-size: 0.9rem;
-}
-.q-link-container > ul > li {
-  padding: 5px 0;
-}
 .sc-links:hover {
   background-color: var(--white-bg);
   color: var(--primary-bg-color);
@@ -350,22 +350,13 @@ footer > .container > .ft-item > p {
   display: flex;
   gap: 20px;
 }
-.cp-r-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.q-link-container > ul > li {
+  padding: 5px 0;
+}
+.q-link-container > ul > li > a {
   font-family: var(--primary-font);
   color: var(--secondary-color);
-  background-color: #1a76d1;
-  padding: 20px 0;
-  position: relative;
-  bottom: 0;
-  right: 0;
-}
-.white-br {
-  border-bottom: 3px solid var(--white-bg);
-  border-radius: 1px;
-  padding: 12px 0;
+  font-size: 0.9rem;
 }
 .item-4 > .in-container {
   border: 1px solid var(--white-bg);
@@ -373,11 +364,6 @@ footer > .container > .ft-item > p {
   display: flex;
   justify-content: space-between;
   width: 260px;
-}
-.item-4 > .in-container >span{
-  background-color: var(--white-bg);
-  padding: 15px 20px;
-  color: #176abc;
 }
 .item-4 > .in-container > input {
   border: 1px solid var(--white-bg);
@@ -389,4 +375,23 @@ footer > .container > .ft-item > p {
 }
 .item-4 > .in-container > input::placeholder {
   color: var(--secondary-color);
+}
+.item-4 > .in-container > span {
+  background-color: var(--white-bg);
+  padding: 15px 20px;
+  color: #176abc;
+}
+
+/* Copyright Section */
+.cp-r-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  background-color: #1a76d1;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  right: 0;
 }

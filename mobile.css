@@ -1,8 +1,10 @@
 @media screen and (max-width: 430px) {
+  /* Utility CSS */
   .container {
     width: 90%;
   }
-  /* Header*/
+
+  /* Header Section */
   .first-nav {
     width: 100%;
   }
@@ -37,7 +39,7 @@
     font-size: 0.9rem;
   }
 
-  /* Navbar */
+  /* Navbar Section */
   .primary-nav > .logo {
     margin: 10px 0;
     padding: 10px 0;
@@ -57,6 +59,7 @@
   }
 
   /* Main Section */
+
   /* Hero Section */
   .hero {
     height: 90vh;
@@ -92,13 +95,17 @@
   .hero-left > .left-bottom > .btn {
     margin: 0;
   }
-  /* Hero Section Cards */
+
+  /* Hero-Cards Section */
   .hero-cards > .container {
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
   }
+
   /* Middle Section */
+
+  /* Quote-1 */
   .mid-top-container {
     width: 100%;
   }
@@ -108,10 +115,8 @@
   .mid-para > p {
     font-size: 0.8rem;
   }
-  /* Middle Section Testimonals */
-  .middle-container > .container {
-    margin: 30px;
-  }
+
+  /* Testimonal-1 */
   .middle-part {
     height: 100%;
   }
@@ -122,7 +127,10 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    margin: 30px;
   }
+
+  /* Testimonal-2 */
   .mid-sec > .con3 {
     flex-wrap: wrap;
     justify-content: center;
@@ -145,10 +153,13 @@
     margin-top: 50px;
   }
 
+  /* Footer Section */
   footer > .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
+
+  /* Copyright Section */
   .cp-r-container {
     text-align: center;
     padding: 30px 25px;

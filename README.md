@@ -15,6 +15,6 @@ MediPlus is a modern, clean, and professional-looking website template ideal for
 
 - HTML5
 - CSS3
-- Media Queries (for responsiveness)
-- Google Fonts (optional)
-- Font Awsome for (Icons)
+- Media Queries (For Responsiveness)
+- Google Fonts (For Fonts)
+- Font Awsome (For Icons)
