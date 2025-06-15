@@ -369,7 +369,7 @@ footer > .container > .ft-item > p {
   border-radius: 3px;
   display: flex;
   justify-content: space-between;
-  width: 257px;
+  width: 260px;
 }
 .item-4 > .in-container >span{
   background-color: var(--white-bg);
