@@ -1,0 +1,14 @@
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  header {
+    width: 130vw;
+  }
+  .first-nav {
+    width: 130vw;
+  }
+  nav {
+    width: 130vw;
+  }
+  .hero {
+    width: 130vw;
+  }
+}
