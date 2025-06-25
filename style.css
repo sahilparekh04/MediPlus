@@ -359,13 +359,13 @@ footer > .container > .ft-item > p {
   font-size: 0.9rem;
 }
 .item-4 > .in-container {
-  border-radius: 3px;
+  border-radius: 3px 0px 3px 3px;
   display: flex;
   justify-content: space-between;
   width: 260px;
-  border-top: 1px solid red;
-  border-left: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid var(--white-bg);
+  border-left: 1px solid var(--white-bg);
+  border-bottom: 1px solid var(--white-bg);
 }
 .item-4 > .in-container > input {
   background-color: transparent;
