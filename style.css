@@ -361,11 +361,7 @@ footer > .container > .ft-item > p {
 .item-4 > .in-container {
   border-radius: 3px 0px 3px 3px;
   display: flex;
-  justify-content: space-between;
   width: 260px;
-  border-top: 1px solid greenyellow;
-  border-left: 1px solid greenyellow;
-  border-bottom: 1px solid greenyellow;
 }
 .item-4 > .in-container > input {
   background-color: transparent;
@@ -373,14 +369,22 @@ footer > .container > .ft-item > p {
   border: none;
   color: var(--secondary-color);
   padding: 15px 15px;
+  border-top: 1px solid var(--white-bg);
+  border-left: 1px solid var(--white-bg);
+  border-bottom: 1px solid var(--white-bg);
+  border-radius: 3px 0px 0px 3px;
 }
 .item-4 > .in-container > input::placeholder {
   color: var(--secondary-color);
 }
 .item-4 > .in-container > span {
-  background-color: red;
+  background-color: var(--white-bg);
   padding: 15px 20px;
   color: #176abc;
+  border-top: 1px solid var(--white-bg);
+  border-right: 1px solid var(--white-bg);
+  border-bottom: 1px solid var(--white-bg);
+  border-radius: 0px 3px 3px 0px;
 }
 
 /* Copyright Section */
