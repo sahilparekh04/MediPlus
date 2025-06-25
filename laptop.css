@@ -1,0 +1,17 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  main {
+    width: 100%;
+  }
+  footer > .container > .ft-item {
+    padding: 20px 10px;
+  }
+  #contact {
+    display: none;
+  }
+  .hero-cards > .container {
+    gap: 30px;
+  }
+  footer > .container > .ft-item > h2 {
+   font-size: 1.1rem;
+  }
+}

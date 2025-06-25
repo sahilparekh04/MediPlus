@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Utility CSS */
+  .container {
+    width: 90%;
+  }
+  .logo > img {
+    width: 87%;
+  }
+  .primary-nav > .logo {
+    padding: 7px 10px;
+    margin: 2px 10px;
+  }
+  .nav-links > ul > li {
+    padding: 8px 5px;
+    margin: 8px 3.5px;
+  }
+  .nav-links > ul > li > a {
+    font-weight: 400;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+  .card {
+    width: 310px;
+  }
+  #card3 {
+    flex-grow: 2;
+  }
+  main {
+    width: 100%;
+  }
+  .mid-top-container {
+    width: 100%;
+  }
+
+  /* Hero-Cards Section */
+  .hero-cards > .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 200px;
+    gap: 30px;
+  }
+  .primary-nav > .btn-container {
+    display: none;
+  }
+  .mid-sec {
+    border-top: 1px solid var(--gray-color);
+  }
+  .middle-container {
+    height: 60vh;
+  }
+  .mid-sec > .container {
+    margin-top: 12vh;
+  }
+  #con2 {
+    margin-top: 23vh;
+  }
+  .mid-sec > .con3 > .left-part-mid {
+    width: 100%;
+  }
+  .mid-sec > .con3 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .mid-sec > .con3 > .right-part-mid {
+    width: 100%;
+  }
+  .middle-container > .container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  footer > .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
