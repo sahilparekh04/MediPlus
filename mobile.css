@@ -1,3 +1,4 @@
+/* Small Mobile Devices */
 @media screen and (max-width: 479px) {
   /* Utility CSS */
   .container {
@@ -171,11 +172,13 @@
     padding: 30px 25px;
   }
 }
-
+/* Large Mobile Devices */
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  /* Utility CSS */
   .container {
     width: 90%;
   }
+  /* Header Section */
   .first-nav {
     width: 100%;
     flex-direction: column;
@@ -210,6 +213,7 @@
   .sec-navbar > .right > .email > span {
     font-size: 0.7rem;
   }
+  /* Navbar Section */
   .hamberger {
     display: block;
     padding: 24px 10px;
@@ -220,6 +224,11 @@
   .btn-container {
     display: none;
   }
+  /* Main Section */
+  main {
+    width: 100%;
+  }
+  /* Hero Section */
   .hero {
     height: 90vh;
     background-image: url("img/slider3.jpg");
@@ -233,18 +242,6 @@
   .hero-left > .left-top > h1 {
     font-size: 1.3rem;
   }
-  .hero-blue {
-    color: var(--primary-bg-color);
-  }
-  .hero-black {
-    color: #000;
-  }
-  .hero-span {
-    font-size: 1.3rem;
-  }
-  .hero-left > .left-center > p {
-    font-size: 0.8rem;
-  }
   /* Hero-Cards Section */
   .hero-cards > .container {
     flex-wrap: wrap;
@@ -253,17 +250,29 @@
     gap: 10px;
     padding: 20px;
   }
-  .mid-top-container {
-    width: 100%;
-  }
+  /* Middle Section */
   .mid-sec {
     border-top: 1px solid var(--gray-color);
   }
   .mid-sec > .container {
     margin-top: 12vh;
   }
-  main {
+  /* Quote-1 */
+  .mid-top-container {
     width: 100%;
+  }
+  /* Testimonal-1 */
+  .middle-part {
+    height: 100%;
+  }
+  .middle-container {
+    height: 100%;
+  }
+  .middle-container > .container {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px;
   }
   /* Testimonal-2 */
   .mid-sec > .con3 {
@@ -287,24 +296,11 @@
     width: 90%;
     margin-top: 50px;
   }
-  .middle-part {
-    height: 100%;
-  }
-  .middle-container {
-    height: 100%;
-  }
-  .middle-container > .container {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 30px;
-  }
   /* Footer Section */
   footer > .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
-
   /* Copyright Section */
   .cp-r-container {
     text-align: center;
